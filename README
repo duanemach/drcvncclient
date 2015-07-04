@@ -17,7 +17,7 @@ This fork improves upon libdrc's analog and button code.
 
 Clone it, build it and install it to wherever you install custom stuff
 
-Example (using ~/local as the prefix for libdrc installation)
+Example (using a custom prefix for libdrc installation)
 
 $ cd /your_working_dir
 $ git clone https://bitbucket.org/kordariffic/libdrc/branch/input-mods
