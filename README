@@ -39,7 +39,7 @@ $ make install
 2. drcvncclient
 
 $ cd /your_working_dir
-$ git clone 
+$ git clone https://github.com/duanemach/drcvncclient.git
 $ cd drcvncclient
 
 If you used a customprefix to install libdrc you need to use the 
