@@ -2,6 +2,7 @@ Short Term
 ----------
 -target 854x480 vnc geometry to fit gamepad screen & pad last 10 pixels
 -clean up and c++ify program
+-document how to reduce drc-x264 quality to gain FPS on slower PCs
 
 Wishlist
 --------
