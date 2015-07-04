@@ -45,15 +45,17 @@ $ cd drcvncclient
 If you used a customprefix to install libdrc you need to use the 
 PKG_CONFIG_PATH and LD_LIBRARY_PATH expressions as below
 
+$ ./autogen.sh
 $ PKG_CONFIG_PATH=/customprefix/usr/lib/pkgconfig:$PKG_CONFIG_PATH ./configure
 $ make
-$ LD_LIBRARY_PATH=/customprefix/usr/lib:$LD_LIBRARY_PATH ./src/drcvncclient :display
+$ LD_LIBRARY_PATH=/customprefix/usr/lib:$LD_LIBRARY_PATH ./src/drcvncclient :1
 
 Or if you installed libdrc to somewhere in your system's existing search paths
 
+$ ./autogen.sh
 $ ./configure
 $ make
-$ ./src/drcvncclient :display
+$ ./src/drcvncclient :1
 
 Preparation
 -----------
